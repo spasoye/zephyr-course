@@ -1,30 +1,67 @@
-#include <zephyr/drivers/gpio.h>
 #include <zephyr/kernel.h>
+#include <zephyr/device.h>
+#include <zephyr/drivers/led_strip.h>
+#include <zephyr/sys/util.h>
 #include <zephyr/logging/log.h>
 
-#define SLEEP_TIME_MS 1000
+// Get the device pointer for the LED strip from the devicetree alias
+#define LED_NODE DT_ALIAS(led_strip)
+static const struct device *led_strip = DEVICE_DT_GET(LED_NODE);
 
-/* The devicetree node identifier for the "led0" alias. */
-#define LED_NODE DT_ALIAS(led0)
-
-static const struct gpio_dt_spec led = GPIO_DT_SPEC_GET(LED_NODE, gpios);
+// Define a pixel buffer for one LED (GRB order)
+static led_rgb pixel_struct = {.r = 0x00, .g = 0x00, .b = 0x00 }; // Blue, Red, Green
 
 LOG_MODULE_REGISTER(main, LOG_LEVEL_INF);
-
 int main(void)
 {
-    bool led_state = true;
+    int ret;
 
-    if (!gpio_is_ready_dt(&led)) return 0;
-
-    if (gpio_pin_configure_dt(&led, GPIO_OUTPUT_ACTIVE) < 0) return 0;
+    // Verify the LED strip device is ready
+    if (!device_is_ready(led_strip)) {
+        return 0;
+    }
 
     while (1) {
-        if (gpio_pin_toggle_dt(&led) < 0) return 0;
+        // Set LED to Red
+        pixel_struct.r = 0x8F; // Red
+        pixel_struct.g = 0x00; // Green
+        pixel_struct.b = 0x00; // Blue
+        
+        ret = led_strip_update_rgb(led_strip, &pixel_struct, 1);
+        LOG_INF("LED state: Red\n");
 
-        led_state = !led_state;
-        LOG_INF("LED state: %s", led_state ? "ON" : "OFF");
-        k_msleep(SLEEP_TIME_MS);
+        if (ret) {
+            return 0;
+        }
+        k_msleep(1000);
+
+        // Set LED to Green
+        pixel_struct.r = 0x00; // Red
+        pixel_struct.g = 0x8F; // Green
+        pixel_struct.b = 0x00; // Blue
+
+        ret = led_strip_update_rgb(led_strip, &pixel_struct, 1);
+        LOG_INF("LED state: Green\n");
+
+        if (ret) {
+            return 0;
+        }
+        k_msleep(1000);
+
+        // Set LED to Blue
+        pixel_struct.r = 0x00; // Red
+        pixel_struct.g = 0x00; // Green
+        pixel_struct.b = 0x8F; // Blue
+
+        ret = led_strip_update_rgb(led_strip, &pixel_struct, 1);
+        LOG_INF("LED state: Blue\n");
+        
+        if (ret) {
+            return 0;
+        }
+
+        k_msleep(1000);
     }
+
     return 0;
 }
