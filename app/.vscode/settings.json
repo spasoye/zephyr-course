@@ -1,0 +1,22 @@
+{
+    "zephyr-workbench.westWorkspace": "/home/ivan/projects/zephyr_workbench",
+    "zephyr-workbench.board": "promicro_nrf52840/nrf52840",
+    "zephyr-workbench.toolchain": "zephyr_sdk",
+    "zephyr-workbench.sdk": "/home/ivan/tools/zephyr_sdk/v0.17.4",
+    "zephyr-workbench.build.pristine": "auto",
+    "zephyr-workbench.build.configurations": [
+        {
+            "name": "primary",
+            "board": "esp32s3_devkitc/esp32s3/procpu",
+            "active": "true",
+            "env.EXTRA_DTC_OVERLAY_FILE": [
+                "boards/esp32s3_devkitc.overlay"
+            ],
+            "default-runner": "esp32"
+        }
+    ],
+    "cmake.configureOnOpen": false,
+    "cmake.enableAutomaticKitScan": false,
+    "C_Cpp.default.compilerPath": "/home/ivan/tools/zephyr_sdk/v0.17.4/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc",
+    "C_Cpp.default.compileCommands": "${workspaceFolder}/build/primary/compile_commands.json"
+}
