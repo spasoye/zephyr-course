@@ -1,8 +1,17 @@
+menuconfig LED_SUBSYSTEM
+    bool "LED subsystem"
+    default y
+
+if LED_SUBSYSTEM
+
 choice
-    prompt "LED subsystem"
+    prompt "LED blink sleep time"
     default BLINK_SLEEP_1000MS
 
 config BLINK_SLEEP_250MS
+    bool "Very fast"
+
+config BLINK_SLEEP_500MS
     bool "Fast"
 
 config BLINK_SLEEP_1000MS
@@ -10,6 +19,21 @@ config BLINK_SLEEP_1000MS
 
 config BLINK_SLEEP_2000MS
     bool "Slow"
+
+endchoice
+
+choice
+    prompt "LED color"
+    default LED_RED
+
+config LED_GREEN
+    bool "Green"
+
+config LED_BLUE
+    bool "Blue"
+
+config LED_RED
+    bool "Red"
 
 endchoice
 
@@ -21,5 +45,33 @@ config BLINK_SLEEP_TIME_MS
     default 1000
     help
         Time between LED toggles in milliseconds.
+
+menuconfig ADV_LED
+    bool "Advanced subsytem"
+
+if ADV_LED
+config LED_BRIGHTNESS
+    int "LED brightness"
+    default 100
+    range 0 100
+
+config LED_FADE_MS
+    int "LED fade duration"
+    default 500
+    range 0 5000
+
+menu "Expert settings"
+    visible if ADV_LED
+config LED_DEBUG
+    bool "Enable LED debugging"
+
+config LED_PATTERN
+    bool "Custom patterns"
+# TODO: custom patterns
+endmenu
+
+endif
+
+endif #LED_SUBSYSTEM
 
 source "Kconfig.zephyr"
