@@ -6,7 +6,7 @@
       "type": "cppdbg",
       "request": "launch",
       "cwd": "${workspaceFolder}",
-      "program": "${workspaceFolder}/build/primary/app/zephyr/zephyr.elf",
+      "program": "${workspaceFolder}/build/zephyr/zephyr.elf",
       "args": [],
       "stopAtEntry": true,
       "svdPath": "",
@@ -22,7 +22,7 @@
       "debugServerArgs": "debugserver --build-dir \"${workspaceFolder}/build/primary\" --runner openocd --gdb-port 3333 --config openocd.cfg --config ${workspaceFolder}/build/.debug/gdb.cfg",
       "setupCommands": [
         {
-          "text": "-environment-cd ${workspaceFolder}/build/primary/app/zephyr"
+          "text": "-environment-cd ${workspaceFolder}/build/zephyr"
         },
         {
           "text": "-target-select remote localhost:3333",
@@ -61,6 +61,27 @@
         "programOutput": true,
         "exceptions": true
       }
+    },
+    {
+      "name": "ESP32-S3 Debug",
+      "type": "cortex-debug",
+      "request": "launch",
+      "servertype": "openocd",
+      "openOCDPath": "/home/ivan/tools/zephyr_sdk/v0.17.4/sysroots/x86_64-pokysdk-linux/usr/bin/openocd",
+      "configFiles": ["openocd.cfg"],
+      "searchDir": [
+          "/home/ivan/projects/zephyr_workbench/deps/zephyr/boards/espressif/esp32s3_devkitc/support",
+          "/home/ivan/tools/zephyr_sdk/v0.17.4/sysroots/x86_64-pokysdk-linux/usr/share/openocd/scripts",
+          "/usr/local/share/openocd/scripts"
+      ],
+      "executable": "${workspaceFolder}/build/primary/zephyr/zephyr.elf",
+      "gdbPath": "/home/ivan/tools/zephyr_sdk/v0.17.4/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gdb",
+      "svdFile": "",
+      "loadFiles": [],
+      "runToEntryPoint": "main",
+      "preLaunchCommands": [
+          "monitor reset halt"
+      ]
     }
   ]
 }
