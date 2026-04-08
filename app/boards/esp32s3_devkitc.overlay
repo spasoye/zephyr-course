@@ -24,8 +24,8 @@
         color-mapping = <LED_COLOR_ID_GREEN
                          LED_COLOR_ID_RED
                          LED_COLOR_ID_BLUE>;
-        spi-one-frame = <0xf0>;
-        spi-zero-frame = <0xc0>;
+        spi-one-frame = <0x78>;
+        spi-zero-frame = <0x60>;
     };
 };
 
