@@ -2,6 +2,7 @@
 #include <zephyr/kernel.h>
 #include <zephyr/device.h>
 #include <zephyr/drivers/led_strip.h>
+#include <zephyr/drivers/gpio.h>
 #include <zephyr/sys/util.h>
 #include <zephyr/logging/log.h>
 #include <zephyr/autoconf.h>
@@ -25,12 +26,15 @@ LOG_MODULE_REGISTER(main, LOG_LEVEL_INF);
     static struct led_rgb color = {.r = (0x00), .g = (0x00), .b = (0xFF)};
 #endif
 
+#define APP_LED_NODE DT_ALIAS(app_led)
+static const struct gpio_dt_spec heartbeat_led = GPIO_DT_SPEC_GET(APP_LED_NODE, gpios);
+
 static struct led_rgb scale_brightness(struct led_rgb curr, uint8_t brightness)
 {
     return (struct led_rgb){
-        .r = (curr.r * brightness) / 255,
-        .g = (curr.g * brightness) / 255,
-        .b = (curr.b * brightness) / 255
+        .r = (uint8_t)((curr.r * brightness) / 255),
+        .g = (uint8_t)((curr.g * brightness) / 255),
+        .b = (uint8_t)((curr.b * brightness) / 255)
     };
 }
 
@@ -48,6 +52,28 @@ void fade_led()
     led_strip_update_rgb(led_strip, &pixel_struct, 1);
 }
 
+/**
+ * @brief Toggle the heartbeat LED at a regular interval to indicate the system 
+          is alive. Iomico lecture 4 homework task.
+ * 
+ */
+void heartbeat()
+{
+    if (!device_is_ready(heartbeat_led.port)) {
+        return;
+    }
+
+    if (gpio_pin_configure_dt(&heartbeat_led, GPIO_OUTPUT_ACTIVE)) {
+        return;
+    }
+
+    while (1) {
+        gpio_pin_toggle_dt(&heartbeat_led);
+        LOG_INF("Heartbeat: System is alive.\n");
+        k_msleep(CONFIG_LED_HEARTBEAT_PERIOD_MS);
+    }
+}
+
 int main(void)
 {
     int ret;
@@ -57,11 +83,11 @@ int main(void)
         return 0;
     }
 
+    // heartbeat();
 
     while (1) {
         
 #if CONFIG_ADV_LED
-
         fade_led();
 #if CONFIG_LED_DEBUG
         LOG_INF("LED faded out, going to sleep.\n");
