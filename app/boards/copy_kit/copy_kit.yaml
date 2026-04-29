@@ -1,0 +1,21 @@
+identifier: copy_kit
+name: ESP32-S3 copy_kit
+type: mcu
+arch: xtensa
+toolchain:
+  - zephyr
+supported:
+  - gpio
+  - uart
+  - i2c
+  - i2s
+  - spi
+  - can
+  - counter
+  - watchdog
+  - entropy
+  - pwm
+  - dma
+  - input
+  - crypto
+vendor: espressif
