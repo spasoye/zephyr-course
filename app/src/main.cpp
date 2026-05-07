@@ -83,7 +83,8 @@ int main(void)
         return 0;
     }
 
-    // heartbeat();
+    printk("Hearbeat LED configured on GPIO pin %d\n", heartbeat_led.pin);
+    heartbeat();
 
     while (1) {
         
