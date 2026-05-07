@@ -18,4 +18,4 @@ supported:
   - dma
   - input
   - crypto
-vendor: espressif
+vendor: spas-tech

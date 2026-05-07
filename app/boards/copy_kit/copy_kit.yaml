@@ -1,5 +1,5 @@
-identifier: copy_kit/esp32s3/appcpu
-name: Copy Kit ESP32-S3 APPCPU
+identifier: copy_kit
+name: Copy Kit ESP32-S3 PROCPU
 type: mcu
 arch: xtensa
 toolchain:
