@@ -1,4 +1,6 @@
 #include <zephyr/dt-bindings/led/led.h>
+#include <zephyr/dt-bindings/gpio/gpio.h>
+#include <espressif/esp32s3/esp32s3_common.dtsi>
 
 /{
     aliases {

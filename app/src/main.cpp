@@ -6,6 +6,8 @@
 #include <zephyr/sys/util.h>
 #include <zephyr/logging/log.h>
 #include <zephyr/autoconf.h>
+#include <zephyr/sys/printk.h>
+
 
 // Get the device pointer for the LED strip from the devicetree alias
 #define LED_NODE DT_ALIAS(led_strip)
