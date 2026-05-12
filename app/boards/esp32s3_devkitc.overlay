@@ -1,11 +1,11 @@
 #include <zephyr/dt-bindings/led/led.h>
 
 / {
-    /*
     chosen {
-        zephyr,console = &cdc_acm_uart0;
+        zephyr,console    = &uart0;
+        zephyr,shell-uart = &uart0;
     };
-    */
+
     aliases {
         led-strip = &led_strip;
     };
@@ -36,10 +36,14 @@
         };
     };
 };
-/*
-&zephyr_udc0 {
-	cdc_acm_uart0: cdc_acm_uart0 {
-		compatible = "zephyr,cdc-acm-uart";
-	};
+
+&uart0{
+    status = "okay";
 };
-*/
+
+// &zephyr_udc0 {
+//     status = "okay";
+//     cdc_acm_uart0: cdc_acm_uart0 {
+//         compatible = "zephyr,cdc-acm-uart";
+//     };
+// };
