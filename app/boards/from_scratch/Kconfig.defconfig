@@ -1,0 +1,13 @@
+# Default board config for the from_scratch board
+if BOARD_FROM_SCRATCH_ESP32S3_PROCPU
+
+config BOARD
+    default "from_scratch"
+
+config BOOT_BANNER
+    default y
+
+config BOOT_BANNER_STRING
+    default "Board initialized from scratch"
+    
+endif 
