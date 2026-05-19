@@ -4,7 +4,7 @@
 
 /{
     aliases {
-        app-led = &led0;    
+        app-led = &led0;
     };
 
     leds {
@@ -13,5 +13,12 @@
             gpios = <&gpio0 10 GPIO_ACTIVE_HIGH>;
             label = "Heartbeat LED";
         };
+    };
+
+    spas_driver0: spas_driver {
+        compatible = "spas,driver";
+        status = "okay";
+        calibration = <500>;
+        gpios = <&gpio0 21 GPIO_ACTIVE_HIGH>;
     };
 };
