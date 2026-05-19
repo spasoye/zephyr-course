@@ -7,6 +7,7 @@
 #include <zephyr/logging/log.h>
 #include <zephyr/autoconf.h>
 #include <zephyr/sys/printk.h>
+#include <zephyr/drivers/sensor.h>
 
 
 // Get the device pointer for the LED strip from the devicetree alias
@@ -76,9 +77,24 @@ void heartbeat()
     }
 }
 
+namespace {
+    void test() {
+        const struct device *driver = DEVICE_DT_GET(DT_NODELABEL(spas_driver0));
+        struct sensor_value val;
+
+        auto ret = sensor_sample_fetch(driver);
+        k_sleep(K_MSEC(1000));
+        
+        ret = sensor_channel_get(driver, SENSOR_CHAN_AMBIENT_TEMP, &val);
+        LOG_INF("Channel ret %d", ret);    
+    }
+}
+
 int main(void)
 {
     int ret;
+
+    test();
 
     // Verify the LED strip device is ready
     if (!device_is_ready(led_strip)) {
