@@ -3,7 +3,7 @@ compatible: "spas,driver"
 include: base.yaml
 
 properties:
-  calibration:
+  sleep_ms:
     type: int
     required: true
   gpios:

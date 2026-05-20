@@ -1,14 +1,20 @@
-#include "zephyr/logging/log_core.h"
 #define DT_DRV_COMPAT spas_driver
 
+#include "zephyr/devicetree.h"
+#include <stdint.h>
 #include <zephyr/logging/log.h>
 #include <zephyr/drivers/sensor.h>
 #include <zephyr/drivers/gpio.h>
+#include "spas_driver.h"
 
 LOG_MODULE_REGISTER(spas_driver, LOG_LEVEL_INF );
 
 struct spas_config {
     struct gpio_dt_spec led;
+};
+
+struct spas_data {
+    int sleep_ms;
 };
 
 static int spas_channel_get(const struct device *dev,
@@ -45,7 +51,13 @@ static const struct spas_config spas_cfg = {
     .led = GPIO_DT_SPEC_INST_GET(0, gpios),
 };
 
+static struct spas_data spas_dat = {
+    .sleep_ms = 0,
+};
+
 static int init(const struct device *dev) {
+
+    struct spas_data *data = dev->data;
     const struct spas_config *cfg = dev->config;
 
     if (!gpio_is_ready_dt(&cfg->led)) {
@@ -59,10 +71,23 @@ static int init(const struct device *dev) {
         return ret;
     }
 
+    data->sleep_ms = DT_INST_PROP(0, sleep_ms);
+
     LOG_INF("Device driver initialized.");
     return 0;
 }
 
+int spas_get_sleep_time(const struct device *dev) {
+    struct spas_data *data = dev->data;
+    LOG_INF("Getting sleep_ms value...");
+    return data->sleep_ms;
+}
 
-DEVICE_DT_INST_DEFINE(0, init, NULL, NULL, &spas_cfg, POST_KERNEL, 80, 
+void spas_set_sleep_time(const struct device *dev, int sleep_time) {
+    struct spas_data *data = dev->data;
+    LOG_INF("Setting sleep_ms value...");
+    data->sleep_ms = sleep_time;
+}
+
+DEVICE_DT_INST_DEFINE(0, init, NULL, &spas_dat, &spas_cfg, POST_KERNEL, 80, 
                        &api_iomico_lecture);

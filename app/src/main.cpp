@@ -8,6 +8,7 @@
 #include <zephyr/autoconf.h>
 #include <zephyr/sys/printk.h>
 #include <zephyr/drivers/sensor.h>
+#include "spas_driver.h"
 
 
 // Get the device pointer for the LED strip from the devicetree alias
@@ -83,7 +84,18 @@ namespace {
         struct sensor_value val;
 
         auto ret = sensor_sample_fetch(driver);
-        k_sleep(K_MSEC(1000));
+
+        uint32_t sleep_time = spas_get_sleep_time(driver);
+
+        LOG_INF("Sleeping for %d ms.", sleep_time);
+        k_sleep(K_MSEC(sleep_time));
+
+        spas_set_sleep_time(driver, 1000);
+        
+        sleep_time = spas_get_sleep_time(driver);
+        LOG_INF("Set sleep_time to %d ms.", sleep_time);
+        k_sleep(K_MSEC(sleep_time));
+
         
         ret = sensor_channel_get(driver, SENSOR_CHAN_AMBIENT_TEMP, &val);
         LOG_INF("Channel ret %d", ret);    

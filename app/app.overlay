@@ -18,7 +18,7 @@
     spas_driver0: spas_driver {
         compatible = "spas,driver";
         status = "okay";
-        calibration = <500>;
+        sleep_ms = <500>;
         gpios = <&gpio0 21 GPIO_ACTIVE_HIGH>;
     };
 };
