@@ -1,0 +1,7 @@
+board:
+  name: copy_kit
+  full_name: Copy Kit ESP32-S3
+  vendor: spas-tech
+  socs:
+  - name: esp32s3
+

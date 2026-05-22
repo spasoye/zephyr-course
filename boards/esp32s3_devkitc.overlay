@@ -1,0 +1,43 @@
+#include <zephyr/dt-bindings/led/led.h>
+
+/ {
+    chosen {
+        zephyr,console    = &uart0;
+        zephyr,shell-uart = &uart0;
+    };
+
+    aliases {
+        led-strip = &led_strip;
+    };
+};
+
+&spi2 {
+    status = "okay";
+    pinctrl-0 = <&spim2_default>;
+    pinctrl-names = "default";
+
+    led_strip: ws2812@0 {
+        compatible = "worldsemi,ws2812-spi";
+        reg = <0>;
+        spi-max-frequency = <6400000>;
+        chain-length = <1>;
+        color-mapping = <LED_COLOR_ID_GREEN
+                         LED_COLOR_ID_RED
+                         LED_COLOR_ID_BLUE>;
+        spi-one-frame = <0x78>;
+        spi-zero-frame = <0x60>;
+    };
+};
+
+&pinctrl {
+    spim2_default: spim2_default {
+        group1 {
+            pinmux = <SPIM2_MOSI_GPIO48>;
+        };
+    };
+};
+
+&uart0{
+    status = "okay";
+};
+

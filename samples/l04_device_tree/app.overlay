@@ -1,0 +1,17 @@
+#include <zephyr/dt-bindings/led/led.h>
+#include <zephyr/dt-bindings/gpio/gpio.h>
+#include <espressif/esp32s3/esp32s3_common.dtsi>
+
+/{
+    aliases {
+        app-led = &led0;
+    };
+
+    leds {
+        compatible = "gpio-leds";
+        led0: led_0 {
+            gpios = <&gpio0 10 GPIO_ACTIVE_HIGH>;
+            label = "Heartbeat LED";
+        };
+    };
+};

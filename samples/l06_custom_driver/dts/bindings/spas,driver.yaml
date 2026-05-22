@@ -1,0 +1,11 @@
+description: Lecture 6 homework
+compatible: "spas,driver"
+include: base.yaml
+
+properties:
+  sleep_ms:
+    type: int
+    required: true
+  gpios:
+    type: phandle-array
+    required: true

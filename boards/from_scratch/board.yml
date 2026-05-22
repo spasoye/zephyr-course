@@ -1,0 +1,6 @@
+board:
+  name: from_scratch
+  full_name: From Scratch Board
+  vendor: spas-tech
+  socs:
+  - name: esp32s3

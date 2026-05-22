@@ -1,0 +1,6 @@
+if BOARD_COPY_KIT_ESP32S3_PROCPU
+
+config BOARD
+    default "copy_kit"
+
+endif # BOARD_COPY_KIT_ESP32S3_PROCPU
