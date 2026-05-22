@@ -1,7 +1,0 @@
-menuconfig SPAS_DRIVER
-    bool "Lesson 6 Custom Driver"
-    default y
-    depends on DT_HAS_SPAS_DRIVER_ENABLED
-    # select GPIO
-    help
-      Enable custom driver for the Lecture 6 homework

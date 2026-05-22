@@ -79,5 +79,5 @@ config LED_HEARTBEAT_PERIOD_MS
     range 100 2000
     default 500
     
-rsource "drivers/spas_driver/Kconfig"
+# rsource "drivers/spas_driver/Kconfig"
 source "Kconfig.zephyr"

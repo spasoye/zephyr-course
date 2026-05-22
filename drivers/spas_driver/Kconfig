@@ -1,4 +1,4 @@
-menuconfig SPAS_DRIVER
+config SPAS_DRIVER
     bool "Lesson 6 Custom Driver"
     default y
     depends on DT_HAS_SPAS_DRIVER_ENABLED
