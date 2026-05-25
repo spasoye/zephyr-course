@@ -6,10 +6,15 @@
 #include <zephyr/drivers/uart.h>
 #include <zephyr/drivers/sensor.h>
 #include "spas_driver.h"
+#include "zephyr/toolchain.h"
 
 LOG_MODULE_REGISTER(shell, LOG_LEVEL_INF);
 
 static int cmd_fetch(const struct shell *sh, size_t argc, char **argv) {
+    ARG_UNUSED(argc);
+    ARG_UNUSED(argv);
+    
+
     const struct device *driver = DEVICE_DT_GET(DT_NODELABEL(spas_driver0));
 
     sensor_sample_fetch(driver);
@@ -20,6 +25,9 @@ static int cmd_fetch(const struct shell *sh, size_t argc, char **argv) {
 }
 
 static int cmd_read(const struct shell *sh, size_t argc, char **argv) {
+    ARG_UNUSED(argc);
+    ARG_UNUSED(argv);
+    
     const struct device *driver = DEVICE_DT_GET(DT_NODELABEL(spas_driver0));
     struct sensor_value sens_val;
 
@@ -30,6 +38,9 @@ static int cmd_read(const struct shell *sh, size_t argc, char **argv) {
 }
 
 static int cmd_info(const struct shell *sh, size_t argc, char **argv) {
+    ARG_UNUSED(argc);
+    ARG_UNUSED(argv);
+
     const struct device *driver = DEVICE_DT_GET(DT_NODELABEL(spas_driver0));
 
     shell_print(sh, "Device name: %s", driver->name);
@@ -42,6 +53,7 @@ SHELL_STATIC_SUBCMD_SET_CREATE(sub_sensor,
     SHELL_CMD(fetch, NULL, "Calls sensor_sample_fetch", cmd_fetch),
     SHELL_CMD(read, NULL, "Calls sensor_sample_fetch_chan", cmd_read),
     SHELL_CMD(info, NULL, "Print dev name and ready state", cmd_info),
+    SHELL_CMD(set, _subcmd, _help, _handler)
     SHELL_SUBCMD_SET_END
 );
 
