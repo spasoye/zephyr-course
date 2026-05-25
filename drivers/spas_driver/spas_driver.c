@@ -79,7 +79,7 @@ static int init(const struct device *dev) {
 
 int spas_get_sleep_time(const struct device *dev) {
     struct spas_data *data = dev->data;
-    LOG_INF("Getting sleep_ms value...");
+    // LOG_INF("Getting sleep_ms value...");
     return data->sleep_ms;
 }
 
