@@ -4,7 +4,7 @@
 
 /{
     aliases {
-        app-led = &led0;
+        heartbeat-led = &led0;
     };
 
     leds {
