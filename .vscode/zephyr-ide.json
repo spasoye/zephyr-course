@@ -1,0 +1,28 @@
+{
+  "projects": {
+    "app": {
+      "rel_path": "app",
+      "name": "app",
+      "buildConfigs": {},
+      "twisterConfigs": {},
+      "confFiles": {
+        "config": [
+          {
+            "path": "app/Kconfig",
+            "extra": false
+          }
+        ],
+        "overlay": [
+          {
+            "path": "app/boards/esp32s3_devkitc.overlay",
+            "extra": true
+          },
+          {
+            "path": "app/app.overlay",
+            "extra": false
+          }
+        ]
+      }
+    }
+  }
+}
