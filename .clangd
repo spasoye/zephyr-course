@@ -1,0 +1,10 @@
+---
+If:
+  PathMatch: tests/.*
+CompileFlags:
+  CompilationDatabase: twister-out/native_sim_native/host/zephyr-course/tests/ring_buf/homework.unit.ring_buf/
+---
+If:
+  PathExclude: tests/.*
+CompileFlags:
+  CompilationDatabase: homework/l07_shell/build
