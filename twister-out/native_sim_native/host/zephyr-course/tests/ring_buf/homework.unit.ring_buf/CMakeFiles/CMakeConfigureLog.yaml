@@ -1,0 +1,3692 @@
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:28 (find_package)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    name: "ZephyrBuildConfiguration"
+    configs:
+      -
+        filename: "ZephyrBuild.cps"
+        kind: "cps"
+      -
+        filename: "zephyrbuild.cps"
+        kind: "cps"
+      -
+        filename: "ZephyrBuildConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "zephyrbuild-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: false
+      bypass_provider: false
+      names:
+        - "ZephyrBuild"
+      search_paths:
+        - "/home/ivan/projects/zephyr_workbench/deps/zephyr/../*"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: false
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: false
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/ivan/projects/zephyr_workbench/zephyr-course/twister-out/native_sim_native/host/zephyr-course/tests/ring_buf/homework.unit.ring_buf/CMakeFiles/pkgRedirects/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/zephyr-course/twister-out/native_sim_native/host/zephyr-course/tests/ring_buf/homework.unit.ring_buf/CMakeFiles/pkgRedirects/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/zephyr-course/twister-out/native_sim_native/host/zephyr-course/tests/ring_buf/homework.unit.ring_buf/CMakeFiles/pkgRedirects/lib/cps/ZephyrBuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/zephyr-course/twister-out/native_sim_native/host/zephyr-course/tests/ring_buf/homework.unit.ring_buf/CMakeFiles/pkgRedirects/lib/cps/zephyrbuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/zephyr-course/twister-out/native_sim_native/host/zephyr-course/tests/ring_buf/homework.unit.ring_buf/CMakeFiles/pkgRedirects/share/cps/ZephyrBuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/zephyr-course/twister-out/native_sim_native/host/zephyr-course/tests/ring_buf/homework.unit.ring_buf/CMakeFiles/pkgRedirects/share/cps/zephyrbuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/modules/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/modules/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/modules/lib/cps/ZephyrBuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/modules/lib/cps/zephyrbuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/modules/share/cps/ZephyrBuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/modules/share/cps/zephyrbuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/zephyr/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/zephyr/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/zephyr/lib/cps/ZephyrBuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/zephyr/lib/cps/zephyrbuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/cps/ZephyrBuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/cps/zephyrbuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/bootloader/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/bootloader/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/bootloader/lib/cps/ZephyrBuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/bootloader/lib/cps/zephyrbuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/bootloader/share/cps/ZephyrBuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/bootloader/share/cps/zephyrbuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/tools/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/tools/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/tools/lib/cps/ZephyrBuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/tools/lib/cps/zephyrbuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/tools/share/cps/ZephyrBuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/tools/share/cps/zephyrbuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:41 (find_package)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    name: "ZephyrAppConfiguration"
+    configs:
+      -
+        filename: "ZephyrApp.cps"
+        kind: "cps"
+      -
+        filename: "zephyrapp.cps"
+        kind: "cps"
+      -
+        filename: "ZephyrAppConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "zephyrapp-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: false
+      bypass_provider: false
+      names:
+        - "ZephyrApp"
+      search_paths:
+        - "/home/ivan/projects/zephyr_workbench/zephyr-course/tests/ring_buf"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: false
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: false
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/ivan/projects/zephyr_workbench/zephyr-course/twister-out/native_sim_native/host/zephyr-course/tests/ring_buf/homework.unit.ring_buf/CMakeFiles/pkgRedirects/ZephyrAppConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/zephyr-course/twister-out/native_sim_native/host/zephyr-course/tests/ring_buf/homework.unit.ring_buf/CMakeFiles/pkgRedirects/zephyrapp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/zephyr-course/twister-out/native_sim_native/host/zephyr-course/tests/ring_buf/homework.unit.ring_buf/CMakeFiles/pkgRedirects/lib/cps/ZephyrApp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/zephyr-course/twister-out/native_sim_native/host/zephyr-course/tests/ring_buf/homework.unit.ring_buf/CMakeFiles/pkgRedirects/lib/cps/zephyrapp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/zephyr-course/twister-out/native_sim_native/host/zephyr-course/tests/ring_buf/homework.unit.ring_buf/CMakeFiles/pkgRedirects/share/cps/ZephyrApp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/zephyr-course/twister-out/native_sim_native/host/zephyr-course/tests/ring_buf/homework.unit.ring_buf/CMakeFiles/pkgRedirects/share/cps/zephyrapp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/zephyr-course/tests/ring_buf/ZephyrAppConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/zephyr-course/tests/ring_buf/zephyrapp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/zephyr-course/tests/ring_buf/lib/cps/ZephyrApp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/zephyr-course/tests/ring_buf/lib/cps/zephyrapp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/zephyr-course/tests/ring_buf/share/cps/ZephyrApp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/zephyr-course/tests/ring_buf/share/cps/zephyrapp.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/ccache.cmake:10 (find_program)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:131 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CCACHE_FOUND"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ccache"
+    candidate_directories:
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+    searched_directories:
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/ccache"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/ccache"
+      - "/home/ivan/.pyenv/shims/ccache"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/ccache"
+      - "/home/ivan/.pyenv/bin/ccache"
+      - "/home/ivan/.local/bin/ccache"
+      - "/usr/local/sbin/ccache"
+      - "/usr/local/bin/ccache"
+    found: "/usr/bin/ccache"
+    search_context:
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/FindZephyr-sdk.cmake:80 (find_package)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/FindHostTools.cmake:51 (find_package)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:131 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    name: "Zephyr-sdk"
+    components:
+      -
+        name: "LOAD"
+        required: false
+        found: false
+    configs:
+      -
+        filename: "Zephyr-sdk.cps"
+        kind: "cps"
+      -
+        filename: "zephyr-sdk.cps"
+        kind: "cps"
+      -
+        filename: "Zephyr-sdkConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "zephyr-sdk-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "0.16"
+      version_complete: "0.16"
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/ivan/.zephyr_ide/toolchains"
+      names:
+        - "Zephyr-sdk"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/ivan/projects/zephyr_workbench/zephyr-course/twister-out/native_sim_native/host/zephyr-course/tests/ring_buf/homework.unit.ring_buf/CMakeFiles/pkgRedirects/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/zephyr-course/twister-out/native_sim_native/host/zephyr-course/tests/ring_buf/homework.unit.ring_buf/CMakeFiles/pkgRedirects/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/zephyr-course/twister-out/native_sim_native/host/zephyr-course/tests/ring_buf/homework.unit.ring_buf/CMakeFiles/pkgRedirects/lib/cps/Zephyr-sdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/zephyr-course/twister-out/native_sim_native/host/zephyr-course/tests/ring_buf/homework.unit.ring_buf/CMakeFiles/pkgRedirects/lib/cps/zephyr-sdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/zephyr-course/twister-out/native_sim_native/host/zephyr-course/tests/ring_buf/homework.unit.ring_buf/CMakeFiles/pkgRedirects/share/cps/Zephyr-sdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/zephyr-course/twister-out/native_sim_native/host/zephyr-course/tests/ring_buf/homework.unit.ring_buf/CMakeFiles/pkgRedirects/share/cps/zephyr-sdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/.zephyr_ide/toolchains/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.16.6/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.16.6/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/cmake/Zephyr-sdkConfig.cmake"
+      mode: "config"
+      version: "0.17.3"
+    search_context:
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/FindHostTools.cmake:54 (find_program)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:131 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "GPERF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gperf"
+    candidate_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+    searched_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/gperf"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/gperf"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/gperf"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/gperf"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/gperf"
+      - "/home/ivan/.pyenv/shims/gperf"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/gperf"
+      - "/home/ivan/.pyenv/bin/gperf"
+      - "/home/ivan/.local/bin/gperf"
+      - "/usr/local/sbin/gperf"
+      - "/usr/local/bin/gperf"
+    found: "/usr/bin/gperf"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/FindHostTools.cmake:57 (find_program)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:131 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "OPENOCD"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "openocd"
+    candidate_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+    searched_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/openocd"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/openocd"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/openocd"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/openocd"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/openocd"
+      - "/home/ivan/.pyenv/shims/openocd"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/openocd"
+      - "/home/ivan/.pyenv/bin/openocd"
+      - "/home/ivan/.local/bin/openocd"
+      - "/usr/local/sbin/openocd"
+      - "/usr/local/bin/openocd"
+      - "/usr/bin/openocd"
+      - "/var/lib/flatpak/exports/bin/openocd"
+      - "/usr/lib/jvm/default/bin/openocd"
+      - "/usr/bin/site_perl/openocd"
+      - "/usr/bin/vendor_perl/openocd"
+      - "/usr/bin/core_perl/openocd"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/openocd"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/FindHostTools.cmake:60 (find_program)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:131 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "BOSSAC"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "bossac"
+    candidate_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+    searched_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/bossac"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/bossac"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bossac"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/bossac"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/bossac"
+      - "/home/ivan/.pyenv/shims/bossac"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/bossac"
+      - "/home/ivan/.pyenv/bin/bossac"
+      - "/home/ivan/.local/bin/bossac"
+      - "/usr/local/sbin/bossac"
+      - "/usr/local/bin/bossac"
+      - "/usr/bin/bossac"
+      - "/var/lib/flatpak/exports/bin/bossac"
+      - "/usr/lib/jvm/default/bin/bossac"
+      - "/usr/bin/site_perl/bossac"
+      - "/usr/bin/vendor_perl/bossac"
+      - "/usr/bin/core_perl/bossac"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/bossac"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/FindHostTools.cmake:65 (find_program)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:131 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "IMGTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "imgtool.py"
+      - "imgtool"
+    candidate_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/ivan/projects/zephyr_workbench/deps/bootloader/mcuboot/scripts/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+    searched_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/imgtool.py"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/imgtool"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/imgtool.py"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/imgtool"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/imgtool.py"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/imgtool"
+    found: "/home/ivan/projects/zephyr_workbench/deps/bootloader/mcuboot/scripts/imgtool.py"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/FindHostTools.cmake:68 (find_program)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:131 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "PTY_INTERFACE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "winpty"
+    candidate_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+    searched_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/winpty"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/winpty"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/winpty"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/winpty"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/winpty"
+      - "/home/ivan/.pyenv/shims/winpty"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/winpty"
+      - "/home/ivan/.pyenv/bin/winpty"
+      - "/home/ivan/.local/bin/winpty"
+      - "/usr/local/sbin/winpty"
+      - "/usr/local/bin/winpty"
+      - "/usr/bin/winpty"
+      - "/var/lib/flatpak/exports/bin/winpty"
+      - "/usr/lib/jvm/default/bin/winpty"
+      - "/usr/bin/site_perl/winpty"
+      - "/usr/bin/vendor_perl/winpty"
+      - "/usr/bin/core_perl/winpty"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/winpty"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/compiler/host-gcc/generic.cmake:5 (find_program)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/FindHostTools.cmake:113 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:131 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc"
+    candidate_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+    searched_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/gcc"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/gcc"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/gcc"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/gcc"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/gcc"
+      - "/home/ivan/.pyenv/shims/gcc"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/gcc"
+      - "/home/ivan/.pyenv/bin/gcc"
+      - "/home/ivan/.local/bin/gcc"
+      - "/usr/local/sbin/gcc"
+      - "/usr/local/bin/gcc"
+    found: "/usr/bin/gcc"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/compiler/host-gcc/generic.cmake:6 (find_program)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/FindHostTools.cmake:113 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:131 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_GCOV"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcov"
+    candidate_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+    searched_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/gcov"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/gcov"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/gcov"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/gcov"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/gcov"
+      - "/home/ivan/.pyenv/shims/gcov"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/gcov"
+      - "/home/ivan/.pyenv/bin/gcov"
+      - "/home/ivan/.local/bin/gcov"
+      - "/usr/local/sbin/gcov"
+      - "/usr/local/bin/gcov"
+    found: "/usr/bin/gcov"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/FindDtc.cmake:19 (find_program)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/dts.cmake:10 (find_package)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:131 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "DTC"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dtc"
+    candidate_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+    searched_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/dtc"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/dtc"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/dtc"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/dtc"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/dtc"
+      - "/home/ivan/.pyenv/shims/dtc"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/dtc"
+      - "/home/ivan/.pyenv/bin/dtc"
+      - "/home/ivan/.local/bin/dtc"
+      - "/usr/local/sbin/dtc"
+      - "/usr/local/bin/dtc"
+    found: "/usr/bin/dtc"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/compiler/host-gcc/target.cmake:5 (find_program)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/FindTargetTools.cmake:103 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc"
+    candidate_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+    searched_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/gcc"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/gcc"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/gcc"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/gcc"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/gcc"
+      - "/home/ivan/.pyenv/shims/gcc"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/gcc"
+      - "/home/ivan/.pyenv/bin/gcc"
+      - "/home/ivan/.local/bin/gcc"
+      - "/usr/local/sbin/gcc"
+      - "/usr/local/bin/gcc"
+    found: "/usr/bin/gcc"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/compiler/host-gcc/target.cmake:19 (find_program)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/FindTargetTools.cmake:103 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/usr/bin/gcc"
+    candidate_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+      - "/home/ivan/projects/zephyr_workbench/zephyr-course/tests/ring_buf/CACHE/"
+      - "/home/ivan/projects/zephyr_workbench/zephyr-course/tests/ring_buf/INTERNAL/"
+      - "/home/ivan/projects/zephyr_workbench/zephyr-course/tests/ring_buf/ /"
+      - "/home/ivan/projects/zephyr_workbench/zephyr-course/tests/ring_buf/FORCE/"
+    found: "/usr/bin/gcc"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/FindGnuLd.cmake:64 (find_program)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/linker/ld/target.cmake:4 (find_package)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/FindTargetTools.cmake:104 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "GNULD_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld.bfd"
+    candidate_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+    searched_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/ld.bfd"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/ld.bfd"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/ld.bfd"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/ld.bfd"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/ld.bfd"
+      - "/home/ivan/.pyenv/shims/ld.bfd"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/ld.bfd"
+      - "/home/ivan/.pyenv/bin/ld.bfd"
+      - "/home/ivan/.local/bin/ld.bfd"
+      - "/usr/local/sbin/ld.bfd"
+      - "/usr/local/bin/ld.bfd"
+    found: "/usr/bin/ld.bfd"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/bintools/host-gnu/target.cmake:5 (find_program)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/FindTargetTools.cmake:106 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+    searched_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/objcopy"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/objcopy"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/objcopy"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/objcopy"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/objcopy"
+      - "/home/ivan/.pyenv/shims/objcopy"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/objcopy"
+      - "/home/ivan/.pyenv/bin/objcopy"
+      - "/home/ivan/.local/bin/objcopy"
+      - "/usr/local/sbin/objcopy"
+      - "/usr/local/bin/objcopy"
+    found: "/usr/bin/objcopy"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/bintools/host-gnu/target.cmake:6 (find_program)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/FindTargetTools.cmake:106 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+    searched_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/objdump"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/objdump"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/objdump"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/objdump"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/objdump"
+      - "/home/ivan/.pyenv/shims/objdump"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/objdump"
+      - "/home/ivan/.pyenv/bin/objdump"
+      - "/home/ivan/.local/bin/objdump"
+      - "/usr/local/sbin/objdump"
+      - "/usr/local/bin/objdump"
+    found: "/usr/bin/objdump"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/bintools/host-gnu/target.cmake:7 (find_program)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/FindTargetTools.cmake:106 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+    searched_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/ar"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/ar"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/ar"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/ar"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/ar"
+      - "/home/ivan/.pyenv/shims/ar"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/ar"
+      - "/home/ivan/.pyenv/bin/ar"
+      - "/home/ivan/.local/bin/ar"
+      - "/usr/local/sbin/ar"
+      - "/usr/local/bin/ar"
+    found: "/usr/bin/ar"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/bintools/host-gnu/target.cmake:8 (find_program)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/FindTargetTools.cmake:106 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+    searched_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/ranlib"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/ranlib"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/ranlib"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/ranlib"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/ranlib"
+      - "/home/ivan/.pyenv/shims/ranlib"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/ranlib"
+      - "/home/ivan/.pyenv/bin/ranlib"
+      - "/home/ivan/.local/bin/ranlib"
+      - "/usr/local/sbin/ranlib"
+      - "/usr/local/bin/ranlib"
+    found: "/usr/bin/ranlib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/bintools/host-gnu/target.cmake:9 (find_program)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/FindTargetTools.cmake:106 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+    searched_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/readelf"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/readelf"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/readelf"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/readelf"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/readelf"
+      - "/home/ivan/.pyenv/shims/readelf"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/readelf"
+      - "/home/ivan/.pyenv/bin/readelf"
+      - "/home/ivan/.local/bin/readelf"
+      - "/usr/local/sbin/readelf"
+      - "/usr/local/bin/readelf"
+    found: "/usr/bin/readelf"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/bintools/host-gnu/target.cmake:10 (find_program)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/FindTargetTools.cmake:106 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+    searched_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/nm"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/nm"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/nm"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/nm"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/nm"
+      - "/home/ivan/.pyenv/shims/nm"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/nm"
+      - "/home/ivan/.pyenv/bin/nm"
+      - "/home/ivan/.local/bin/nm"
+      - "/usr/local/sbin/nm"
+      - "/usr/local/bin/nm"
+    found: "/usr/bin/nm"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/bintools/host-gnu/target.cmake:11 (find_program)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/FindTargetTools.cmake:106 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+    searched_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/strip"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/strip"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/strip"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/strip"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/strip"
+      - "/home/ivan/.pyenv/shims/strip"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/strip"
+      - "/home/ivan/.pyenv/bin/strip"
+      - "/home/ivan/.local/bin/strip"
+      - "/usr/local/sbin/strip"
+      - "/usr/local/bin/strip"
+    found: "/usr/bin/strip"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/bintools/host-gnu/target.cmake:13 (find_program)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/FindTargetTools.cmake:106 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_GDB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gdb"
+    candidate_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+    searched_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/gdb"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/gdb"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/gdb"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/gdb"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/gdb"
+      - "/home/ivan/.pyenv/shims/gdb"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/gdb"
+      - "/home/ivan/.pyenv/bin/gdb"
+      - "/home/ivan/.local/bin/gdb"
+      - "/usr/local/sbin/gdb"
+      - "/usr/local/bin/gdb"
+    found: "/usr/bin/gdb"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+      - "/bin/"
+    searched_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/uname"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/uname"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/uname"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/uname"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/uname"
+      - "/home/ivan/.pyenv/shims/uname"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/uname"
+      - "/home/ivan/.pyenv/bin/uname"
+      - "/home/ivan/.local/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:207 (message)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    message: |
+      The target system is: Generic - 4.3.0 - posix
+      The host system is: Linux - 6.1.173-1-MANJARO - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+    searched_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/ninja-build"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/ninja"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/samu"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/ninja-build"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/ninja"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/samu"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/ninja-build"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/ninja"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/samu"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/ninja-build"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/ninja"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/samu"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/ninja-build"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/ninja"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/samu"
+      - "/home/ivan/.pyenv/shims/ninja-build"
+      - "/home/ivan/.pyenv/shims/ninja"
+      - "/home/ivan/.pyenv/shims/samu"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/ninja-build"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/ninja"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/samu"
+      - "/home/ivan/.pyenv/bin/ninja-build"
+      - "/home/ivan/.pyenv/bin/ninja"
+      - "/home/ivan/.pyenv/bin/samu"
+      - "/home/ivan/.local/bin/ninja-build"
+      - "/home/ivan/.local/bin/ninja"
+      - "/home/ivan/.local/bin/samu"
+      - "/usr/local/sbin/ninja-build"
+      - "/usr/local/sbin/ninja"
+      - "/usr/local/sbin/samu"
+      - "/usr/local/bin/ninja-build"
+      - "/usr/local/bin/ninja"
+      - "/usr/local/bin/samu"
+      - "/usr/bin/ninja-build"
+    found: "/usr/bin/ninja"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/"
+    found: "/usr/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/ivan/projects/zephyr_workbench/zephyr-course/twister-out/native_sim_native/host/zephyr-course/tests/ring_buf/homework.unit.ring_buf/CMakeFiles/4.3.2/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/dlltool"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/dlltool"
+      - "/home/ivan/.pyenv/shims/dlltool"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/dlltool"
+      - "/home/ivan/.pyenv/bin/dlltool"
+      - "/home/ivan/.local/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/var/lib/flatpak/exports/bin/dlltool"
+      - "/usr/lib/jvm/default/bin/dlltool"
+      - "/usr/bin/site_perl/dlltool"
+      - "/usr/bin/vendor_perl/dlltool"
+      - "/usr/bin/core_perl/dlltool"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/dlltool"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+    found: "/usr/bin/addr2line"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/tapi"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/tapi"
+      - "/home/ivan/.pyenv/shims/tapi"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/tapi"
+      - "/home/ivan/.pyenv/bin/tapi"
+      - "/home/ivan/.local/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/var/lib/flatpak/exports/bin/tapi"
+      - "/usr/lib/jvm/default/bin/tapi"
+      - "/usr/bin/site_perl/tapi"
+      - "/usr/bin/vendor_perl/tapi"
+      - "/usr/bin/core_perl/tapi"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/tapi"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-16.1"
+      - "gcc-ar-16"
+      - "gcc-ar16"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+    searched_directories:
+      - "/usr/bin/gcc-ar-16.1"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/gcc-ar-16.1"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/gcc-ar-16.1"
+      - "/home/ivan/.pyenv/shims/gcc-ar-16.1"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/gcc-ar-16.1"
+      - "/home/ivan/.pyenv/bin/gcc-ar-16.1"
+      - "/home/ivan/.local/bin/gcc-ar-16.1"
+      - "/usr/local/sbin/gcc-ar-16.1"
+      - "/usr/local/bin/gcc-ar-16.1"
+      - "/var/lib/flatpak/exports/bin/gcc-ar-16.1"
+      - "/usr/lib/jvm/default/bin/gcc-ar-16.1"
+      - "/usr/bin/site_perl/gcc-ar-16.1"
+      - "/usr/bin/vendor_perl/gcc-ar-16.1"
+      - "/usr/bin/core_perl/gcc-ar-16.1"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/gcc-ar-16.1"
+      - "/usr/bin/gcc-ar-16"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/gcc-ar-16"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/gcc-ar-16"
+      - "/home/ivan/.pyenv/shims/gcc-ar-16"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/gcc-ar-16"
+      - "/home/ivan/.pyenv/bin/gcc-ar-16"
+      - "/home/ivan/.local/bin/gcc-ar-16"
+      - "/usr/local/sbin/gcc-ar-16"
+      - "/usr/local/bin/gcc-ar-16"
+      - "/var/lib/flatpak/exports/bin/gcc-ar-16"
+      - "/usr/lib/jvm/default/bin/gcc-ar-16"
+      - "/usr/bin/site_perl/gcc-ar-16"
+      - "/usr/bin/vendor_perl/gcc-ar-16"
+      - "/usr/bin/core_perl/gcc-ar-16"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/gcc-ar-16"
+      - "/usr/bin/gcc-ar16"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/gcc-ar16"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/gcc-ar16"
+      - "/home/ivan/.pyenv/shims/gcc-ar16"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/gcc-ar16"
+      - "/home/ivan/.pyenv/bin/gcc-ar16"
+      - "/home/ivan/.local/bin/gcc-ar16"
+      - "/usr/local/sbin/gcc-ar16"
+      - "/usr/local/bin/gcc-ar16"
+      - "/var/lib/flatpak/exports/bin/gcc-ar16"
+      - "/usr/lib/jvm/default/bin/gcc-ar16"
+      - "/usr/bin/site_perl/gcc-ar16"
+      - "/usr/bin/vendor_perl/gcc-ar16"
+      - "/usr/bin/core_perl/gcc-ar16"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/gcc-ar16"
+    found: "/usr/bin/gcc-ar"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-16.1"
+      - "gcc-ranlib-16"
+      - "gcc-ranlib16"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+    searched_directories:
+      - "/usr/bin/gcc-ranlib-16.1"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/gcc-ranlib-16.1"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/gcc-ranlib-16.1"
+      - "/home/ivan/.pyenv/shims/gcc-ranlib-16.1"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/gcc-ranlib-16.1"
+      - "/home/ivan/.pyenv/bin/gcc-ranlib-16.1"
+      - "/home/ivan/.local/bin/gcc-ranlib-16.1"
+      - "/usr/local/sbin/gcc-ranlib-16.1"
+      - "/usr/local/bin/gcc-ranlib-16.1"
+      - "/var/lib/flatpak/exports/bin/gcc-ranlib-16.1"
+      - "/usr/lib/jvm/default/bin/gcc-ranlib-16.1"
+      - "/usr/bin/site_perl/gcc-ranlib-16.1"
+      - "/usr/bin/vendor_perl/gcc-ranlib-16.1"
+      - "/usr/bin/core_perl/gcc-ranlib-16.1"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/gcc-ranlib-16.1"
+      - "/usr/bin/gcc-ranlib-16"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/gcc-ranlib-16"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/gcc-ranlib-16"
+      - "/home/ivan/.pyenv/shims/gcc-ranlib-16"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/gcc-ranlib-16"
+      - "/home/ivan/.pyenv/bin/gcc-ranlib-16"
+      - "/home/ivan/.local/bin/gcc-ranlib-16"
+      - "/usr/local/sbin/gcc-ranlib-16"
+      - "/usr/local/bin/gcc-ranlib-16"
+      - "/var/lib/flatpak/exports/bin/gcc-ranlib-16"
+      - "/usr/lib/jvm/default/bin/gcc-ranlib-16"
+      - "/usr/bin/site_perl/gcc-ranlib-16"
+      - "/usr/bin/vendor_perl/gcc-ranlib-16"
+      - "/usr/bin/core_perl/gcc-ranlib-16"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/gcc-ranlib-16"
+      - "/usr/bin/gcc-ranlib16"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/gcc-ranlib16"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/gcc-ranlib16"
+      - "/home/ivan/.pyenv/shims/gcc-ranlib16"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/gcc-ranlib16"
+      - "/home/ivan/.pyenv/bin/gcc-ranlib16"
+      - "/home/ivan/.local/bin/gcc-ranlib16"
+      - "/usr/local/sbin/gcc-ranlib16"
+      - "/usr/local/bin/gcc-ranlib16"
+      - "/var/lib/flatpak/exports/bin/gcc-ranlib16"
+      - "/usr/lib/jvm/default/bin/gcc-ranlib16"
+      - "/usr/bin/site_perl/gcc-ranlib16"
+      - "/usr/bin/vendor_perl/gcc-ranlib16"
+      - "/usr/bin/core_perl/gcc-ranlib16"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/gcc-ranlib16"
+    found: "/usr/bin/gcc-ranlib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/"
+    found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/ivan/projects/zephyr_workbench/zephyr-course/twister-out/native_sim_native/host/zephyr-course/tests/ring_buf/homework.unit.ring_buf/CMakeFiles/4.3.2/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-16.1"
+      - "gcc-ar-16"
+      - "gcc-ar16"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+    searched_directories:
+      - "/usr/bin/gcc-ar-16.1"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/gcc-ar-16.1"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/gcc-ar-16.1"
+      - "/home/ivan/.pyenv/shims/gcc-ar-16.1"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/gcc-ar-16.1"
+      - "/home/ivan/.pyenv/bin/gcc-ar-16.1"
+      - "/home/ivan/.local/bin/gcc-ar-16.1"
+      - "/usr/local/sbin/gcc-ar-16.1"
+      - "/usr/local/bin/gcc-ar-16.1"
+      - "/var/lib/flatpak/exports/bin/gcc-ar-16.1"
+      - "/usr/lib/jvm/default/bin/gcc-ar-16.1"
+      - "/usr/bin/site_perl/gcc-ar-16.1"
+      - "/usr/bin/vendor_perl/gcc-ar-16.1"
+      - "/usr/bin/core_perl/gcc-ar-16.1"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/gcc-ar-16.1"
+      - "/usr/bin/gcc-ar-16"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/gcc-ar-16"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/gcc-ar-16"
+      - "/home/ivan/.pyenv/shims/gcc-ar-16"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/gcc-ar-16"
+      - "/home/ivan/.pyenv/bin/gcc-ar-16"
+      - "/home/ivan/.local/bin/gcc-ar-16"
+      - "/usr/local/sbin/gcc-ar-16"
+      - "/usr/local/bin/gcc-ar-16"
+      - "/var/lib/flatpak/exports/bin/gcc-ar-16"
+      - "/usr/lib/jvm/default/bin/gcc-ar-16"
+      - "/usr/bin/site_perl/gcc-ar-16"
+      - "/usr/bin/vendor_perl/gcc-ar-16"
+      - "/usr/bin/core_perl/gcc-ar-16"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/gcc-ar-16"
+      - "/usr/bin/gcc-ar16"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/gcc-ar16"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/gcc-ar16"
+      - "/home/ivan/.pyenv/shims/gcc-ar16"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/gcc-ar16"
+      - "/home/ivan/.pyenv/bin/gcc-ar16"
+      - "/home/ivan/.local/bin/gcc-ar16"
+      - "/usr/local/sbin/gcc-ar16"
+      - "/usr/local/bin/gcc-ar16"
+      - "/var/lib/flatpak/exports/bin/gcc-ar16"
+      - "/usr/lib/jvm/default/bin/gcc-ar16"
+      - "/usr/bin/site_perl/gcc-ar16"
+      - "/usr/bin/vendor_perl/gcc-ar16"
+      - "/usr/bin/core_perl/gcc-ar16"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/gcc-ar16"
+    found: "/usr/bin/gcc-ar"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-16.1"
+      - "gcc-ranlib-16"
+      - "gcc-ranlib16"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+    searched_directories:
+      - "/usr/bin/gcc-ranlib-16.1"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/gcc-ranlib-16.1"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/gcc-ranlib-16.1"
+      - "/home/ivan/.pyenv/shims/gcc-ranlib-16.1"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/gcc-ranlib-16.1"
+      - "/home/ivan/.pyenv/bin/gcc-ranlib-16.1"
+      - "/home/ivan/.local/bin/gcc-ranlib-16.1"
+      - "/usr/local/sbin/gcc-ranlib-16.1"
+      - "/usr/local/bin/gcc-ranlib-16.1"
+      - "/var/lib/flatpak/exports/bin/gcc-ranlib-16.1"
+      - "/usr/lib/jvm/default/bin/gcc-ranlib-16.1"
+      - "/usr/bin/site_perl/gcc-ranlib-16.1"
+      - "/usr/bin/vendor_perl/gcc-ranlib-16.1"
+      - "/usr/bin/core_perl/gcc-ranlib-16.1"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/gcc-ranlib-16.1"
+      - "/usr/bin/gcc-ranlib-16"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/gcc-ranlib-16"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/gcc-ranlib-16"
+      - "/home/ivan/.pyenv/shims/gcc-ranlib-16"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/gcc-ranlib-16"
+      - "/home/ivan/.pyenv/bin/gcc-ranlib-16"
+      - "/home/ivan/.local/bin/gcc-ranlib-16"
+      - "/usr/local/sbin/gcc-ranlib-16"
+      - "/usr/local/bin/gcc-ranlib-16"
+      - "/var/lib/flatpak/exports/bin/gcc-ranlib-16"
+      - "/usr/lib/jvm/default/bin/gcc-ranlib-16"
+      - "/usr/bin/site_perl/gcc-ranlib-16"
+      - "/usr/bin/vendor_perl/gcc-ranlib-16"
+      - "/usr/bin/core_perl/gcc-ranlib-16"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/gcc-ranlib-16"
+      - "/usr/bin/gcc-ranlib16"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/gcc-ranlib16"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/gcc-ranlib16"
+      - "/home/ivan/.pyenv/shims/gcc-ranlib16"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/gcc-ranlib16"
+      - "/home/ivan/.pyenv/bin/gcc-ranlib16"
+      - "/home/ivan/.local/bin/gcc-ranlib16"
+      - "/usr/local/sbin/gcc-ranlib16"
+      - "/usr/local/bin/gcc-ranlib16"
+      - "/var/lib/flatpak/exports/bin/gcc-ranlib16"
+      - "/usr/lib/jvm/default/bin/gcc-ranlib16"
+      - "/usr/bin/site_perl/gcc-ranlib16"
+      - "/usr/bin/vendor_perl/gcc-ranlib16"
+      - "/usr/bin/core_perl/gcc-ranlib16"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/gcc-ranlib16"
+    found: "/usr/bin/gcc-ranlib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:61 (_cmake_find_compiler)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/kernel.cmake:135 (enable_language)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER"
+    description: "ASM compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/usr/bin/gcc"
+    candidate_directories:
+      - "/usr/bin/"
+    found: "/usr/bin/gcc"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1296 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/kernel.cmake:135 (enable_language)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      gcc (GCC) 16.1.1 20260430
+      Copyright (C) 2026 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/kernel.cmake:135 (enable_language)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-"
+      - "gcc-ar-"
+      - "gcc-ar"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+      - "/bin/"
+    searched_directories:
+      - "/usr/bin/gcc-ar-"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/gcc-ar-"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/gcc-ar-"
+      - "/home/ivan/.pyenv/shims/gcc-ar-"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/gcc-ar-"
+      - "/home/ivan/.pyenv/bin/gcc-ar-"
+      - "/home/ivan/.local/bin/gcc-ar-"
+      - "/usr/local/sbin/gcc-ar-"
+      - "/usr/local/bin/gcc-ar-"
+      - "/var/lib/flatpak/exports/bin/gcc-ar-"
+      - "/usr/lib/jvm/default/bin/gcc-ar-"
+      - "/usr/bin/site_perl/gcc-ar-"
+      - "/usr/bin/vendor_perl/gcc-ar-"
+      - "/usr/bin/core_perl/gcc-ar-"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/gcc-ar-"
+      - "/bin/gcc-ar-"
+      - "/usr/bin/gcc-ar-"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/gcc-ar-"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/gcc-ar-"
+      - "/home/ivan/.pyenv/shims/gcc-ar-"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/gcc-ar-"
+      - "/home/ivan/.pyenv/bin/gcc-ar-"
+      - "/home/ivan/.local/bin/gcc-ar-"
+      - "/usr/local/sbin/gcc-ar-"
+      - "/usr/local/bin/gcc-ar-"
+      - "/var/lib/flatpak/exports/bin/gcc-ar-"
+      - "/usr/lib/jvm/default/bin/gcc-ar-"
+      - "/usr/bin/site_perl/gcc-ar-"
+      - "/usr/bin/vendor_perl/gcc-ar-"
+      - "/usr/bin/core_perl/gcc-ar-"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/gcc-ar-"
+      - "/bin/gcc-ar-"
+    found: "/usr/bin/gcc-ar"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/kernel.cmake:135 (enable_language)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-"
+      - "gcc-ranlib-"
+      - "gcc-ranlib"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+      - "/bin/"
+    searched_directories:
+      - "/usr/bin/gcc-ranlib-"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/gcc-ranlib-"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/gcc-ranlib-"
+      - "/home/ivan/.pyenv/shims/gcc-ranlib-"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/gcc-ranlib-"
+      - "/home/ivan/.pyenv/bin/gcc-ranlib-"
+      - "/home/ivan/.local/bin/gcc-ranlib-"
+      - "/usr/local/sbin/gcc-ranlib-"
+      - "/usr/local/bin/gcc-ranlib-"
+      - "/var/lib/flatpak/exports/bin/gcc-ranlib-"
+      - "/usr/lib/jvm/default/bin/gcc-ranlib-"
+      - "/usr/bin/site_perl/gcc-ranlib-"
+      - "/usr/bin/vendor_perl/gcc-ranlib-"
+      - "/usr/bin/core_perl/gcc-ranlib-"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/gcc-ranlib-"
+      - "/bin/gcc-ranlib-"
+      - "/usr/bin/gcc-ranlib-"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/gcc-ranlib-"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/gcc-ranlib-"
+      - "/home/ivan/.pyenv/shims/gcc-ranlib-"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/gcc-ranlib-"
+      - "/home/ivan/.pyenv/bin/gcc-ranlib-"
+      - "/home/ivan/.local/bin/gcc-ranlib-"
+      - "/usr/local/sbin/gcc-ranlib-"
+      - "/usr/local/bin/gcc-ranlib-"
+      - "/var/lib/flatpak/exports/bin/gcc-ranlib-"
+      - "/usr/lib/jvm/default/bin/gcc-ranlib-"
+      - "/usr/bin/site_perl/gcc-ranlib-"
+      - "/usr/bin/vendor_perl/gcc-ranlib-"
+      - "/usr/bin/core_perl/gcc-ranlib-"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/gcc-ranlib-"
+      - "/bin/gcc-ranlib-"
+    found: "/usr/bin/gcc-ranlib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/ivan/projects/zephyr_workbench/deps/modules/lib/picolibc/CMakeLists.txt:49 (find_program)"
+    mode: "program"
+    variable: "CCACHE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ccache"
+    candidate_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+      - "/bin/"
+    searched_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/ccache"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/ccache"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/ccache"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/ccache"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/ccache"
+      - "/home/ivan/.pyenv/shims/ccache"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/ccache"
+      - "/home/ivan/.pyenv/bin/ccache"
+      - "/home/ivan/.local/bin/ccache"
+      - "/usr/local/sbin/ccache"
+      - "/usr/local/bin/ccache"
+    found: "/usr/bin/ccache"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/kobj.cmake:3 (find_program)"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/CMakeLists.txt:1003 (include)"
+    mode: "program"
+    variable: "GEN_KOBJECT_LIST"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gen_kobject_list"
+      - "gen_kobject_list.py"
+    candidate_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+      - "/bin/"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/scripts/build/"
+    searched_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/gen_kobject_list"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/gen_kobject_list"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/gen_kobject_list"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/gen_kobject_list"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/gen_kobject_list"
+      - "/home/ivan/.pyenv/shims/gen_kobject_list"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/gen_kobject_list"
+      - "/home/ivan/.pyenv/bin/gen_kobject_list"
+      - "/home/ivan/.local/bin/gen_kobject_list"
+      - "/usr/local/sbin/gen_kobject_list"
+      - "/usr/local/bin/gen_kobject_list"
+      - "/usr/bin/gen_kobject_list"
+      - "/var/lib/flatpak/exports/bin/gen_kobject_list"
+      - "/usr/lib/jvm/default/bin/gen_kobject_list"
+      - "/usr/bin/site_perl/gen_kobject_list"
+      - "/usr/bin/vendor_perl/gen_kobject_list"
+      - "/usr/bin/core_perl/gen_kobject_list"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/gen_kobject_list"
+      - "/bin/gen_kobject_list"
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/scripts/build/gen_kobject_list"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/gen_kobject_list.py"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/gen_kobject_list.py"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/gen_kobject_list.py"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/gen_kobject_list.py"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/gen_kobject_list.py"
+      - "/home/ivan/.pyenv/shims/gen_kobject_list.py"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/gen_kobject_list.py"
+      - "/home/ivan/.pyenv/bin/gen_kobject_list.py"
+      - "/home/ivan/.local/bin/gen_kobject_list.py"
+      - "/usr/local/sbin/gen_kobject_list.py"
+      - "/usr/local/bin/gen_kobject_list.py"
+      - "/usr/bin/gen_kobject_list.py"
+      - "/var/lib/flatpak/exports/bin/gen_kobject_list.py"
+      - "/usr/lib/jvm/default/bin/gen_kobject_list.py"
+      - "/usr/bin/site_perl/gen_kobject_list.py"
+      - "/usr/bin/vendor_perl/gen_kobject_list.py"
+      - "/usr/bin/core_perl/gen_kobject_list.py"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/gen_kobject_list.py"
+      - "/bin/gen_kobject_list.py"
+    found: "/home/ivan/projects/zephyr_workbench/deps/zephyr/scripts/build/gen_kobject_list.py"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/CMakeLists.txt:2114 (find_program)"
+    mode: "program"
+    variable: "MAKE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "make"
+    candidate_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+      - "/bin/"
+    searched_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/make"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/make"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/make"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/make"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/make"
+      - "/home/ivan/.pyenv/shims/make"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/make"
+      - "/home/ivan/.pyenv/bin/make"
+      - "/home/ivan/.local/bin/make"
+      - "/usr/local/sbin/make"
+      - "/usr/local/bin/make"
+    found: "/usr/bin/make"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/reports/CMakeLists.txt:115 (find_program)"
+    mode: "program"
+    variable: "PUNCOVER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "puncover"
+    candidate_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+      - "/bin/"
+    searched_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/puncover"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/puncover"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/puncover"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/puncover"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/puncover"
+      - "/home/ivan/.pyenv/shims/puncover"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/puncover"
+      - "/home/ivan/.pyenv/bin/puncover"
+      - "/home/ivan/.local/bin/puncover"
+      - "/usr/local/sbin/puncover"
+      - "/usr/local/bin/puncover"
+      - "/usr/bin/puncover"
+      - "/var/lib/flatpak/exports/bin/puncover"
+      - "/usr/lib/jvm/default/bin/puncover"
+      - "/usr/bin/site_perl/puncover"
+      - "/usr/bin/vendor_perl/puncover"
+      - "/usr/bin/core_perl/puncover"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/puncover"
+      - "/bin/puncover"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/reports/CMakeLists.txt:142 (find_program)"
+    mode: "program"
+    variable: "PAHOLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pahole"
+    candidate_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/"
+      - "/home/ivan/.pyenv/shims/"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/"
+      - "/home/ivan/.pyenv/bin/"
+      - "/home/ivan/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/var/lib/snapd/snap/bin\u201d\u2019/"
+      - "/bin/"
+    searched_directories:
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/bin/pahole"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/sbin/pahole"
+      - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr/pahole"
+      - "/home/ivan/projects/zephyr_workbench/.venv/bin/pahole"
+      - "/home/ivan/.nvm/versions/node/v25.6.1/bin/pahole"
+      - "/home/ivan/.pyenv/shims/pahole"
+      - "/home/ivan/.local/share/gem/ruby/3.3.0/bin/pahole"
+      - "/home/ivan/.pyenv/bin/pahole"
+      - "/home/ivan/.local/bin/pahole"
+      - "/usr/local/sbin/pahole"
+      - "/usr/local/bin/pahole"
+    found: "/usr/bin/pahole"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:2 (find_package)"
+    name: "Zephyr"
+    configs:
+      -
+        filename: "Zephyr.cps"
+        kind: "cps"
+      -
+        filename: "zephyr.cps"
+        kind: "cps"
+      -
+        filename: "ZephyrConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "zephyr-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/ivan/projects/zephyr_workbench/deps/zephyr"
+      names:
+        - "Zephyr"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/ivan/projects/zephyr_workbench/zephyr-course/twister-out/native_sim_native/host/zephyr-course/tests/ring_buf/homework.unit.ring_buf/CMakeFiles/pkgRedirects/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/zephyr-course/twister-out/native_sim_native/host/zephyr-course/tests/ring_buf/homework.unit.ring_buf/CMakeFiles/pkgRedirects/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/zephyr-course/twister-out/native_sim_native/host/zephyr-course/tests/ring_buf/homework.unit.ring_buf/CMakeFiles/pkgRedirects/lib/cps/Zephyr.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/zephyr-course/twister-out/native_sim_native/host/zephyr-course/tests/ring_buf/homework.unit.ring_buf/CMakeFiles/pkgRedirects/lib/cps/zephyr.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/zephyr-course/twister-out/native_sim_native/host/zephyr-course/tests/ring_buf/homework.unit.ring_buf/CMakeFiles/pkgRedirects/share/cps/Zephyr.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/zephyr-course/twister-out/native_sim_native/host/zephyr-course/tests/ring_buf/homework.unit.ring_buf/CMakeFiles/pkgRedirects/share/cps/zephyr.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/zephyr/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/zephyr/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/zephyr/cmake/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/zephyr/lib/cps/Zephyr.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/zephyr/lib/cps/zephyr.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/cps/Zephyr.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/cps/zephyr.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyrunittest-package/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyrunittest-package/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyrunittest-package/cmake/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyrunittest-package/cmake/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/ivan/projects/zephyr_workbench/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake"
+      mode: "config"
+      version: "4.3.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/ivan/.zephyr_ide/toolchains/zephyr-sdk-0.17.3/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/ivan/projects/zephyr_workbench/.venv/bin"
+        - "/home/ivan/.nvm/versions/node/v25.6.1/bin"
+        - "/home/ivan/.pyenv/shims"
+        - "/home/ivan/.local/share/gem/ruby/3.3.0/bin"
+        - "/home/ivan/.pyenv/bin"
+        - "/home/ivan/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/var/lib/snapd/snap/bin\u201d\u2019"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+...

@@ -1,0 +1,1 @@
+ERROR: ld.so: object '/usr/NX/lib/libnxegl.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS64): ignored.

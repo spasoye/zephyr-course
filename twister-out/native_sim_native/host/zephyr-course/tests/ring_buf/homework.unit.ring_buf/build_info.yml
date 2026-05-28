@@ -1,0 +1,55 @@
+cmake:
+  application:
+    configuration-dir: '/home/ivan/projects/zephyr_workbench/zephyr-course/tests/ring_buf'
+    source-dir: '/home/ivan/projects/zephyr_workbench/zephyr-course/tests/ring_buf'
+  board:
+    name: 'native_sim'
+    path:
+     - '/home/ivan/projects/zephyr_workbench/deps/zephyr/boards/native/native_sim'
+    qualifiers: 'native'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - '/home/ivan/projects/zephyr_workbench/deps/zephyr/dts/bindings'
+    files:
+     - '/home/ivan/projects/zephyr_workbench/deps/zephyr/boards/native/native_sim/native_sim.dts'
+    include-dirs:
+     - '/home/ivan/projects/zephyr_workbench/deps/modules/hal/ambiq/dts'
+     - '/home/ivan/projects/zephyr_workbench/deps/modules/hal/atmel/include'
+     - '/home/ivan/projects/zephyr_workbench/deps/modules/hal/bouffalolab/include'
+     - '/home/ivan/projects/zephyr_workbench/deps/modules/hal/bouffalolab/include/zephyr'
+     - '/home/ivan/projects/zephyr_workbench/deps/modules/hal/gigadevice/include'
+     - '/home/ivan/projects/zephyr_workbench/deps/modules/hal/microchip/include'
+     - '/home/ivan/projects/zephyr_workbench/deps/modules/hal/microchip/dts'
+     - '/home/ivan/projects/zephyr_workbench/deps/modules/hal/nuvoton/dts'
+     - '/home/ivan/projects/zephyr_workbench/deps/modules/hal/nxp/dts'
+     - '/home/ivan/projects/zephyr_workbench/deps/modules/hal/stm32/dts'
+     - '/home/ivan/projects/zephyr_workbench/deps/modules/hal/ti/dts'
+     - '/home/ivan/projects/zephyr_workbench/deps/zephyr/include'
+     - '/home/ivan/projects/zephyr_workbench/deps/zephyr/include/zephyr'
+     - '/home/ivan/projects/zephyr_workbench/deps/zephyr/dts/common'
+     - '/home/ivan/projects/zephyr_workbench/deps/zephyr/dts/vendor'
+     - '/home/ivan/projects/zephyr_workbench/deps/zephyr/dts/rx'
+     - '/home/ivan/projects/zephyr_workbench/deps/zephyr/dts/x86'
+     - '/home/ivan/projects/zephyr_workbench/deps/zephyr/dts/xtensa'
+     - '/home/ivan/projects/zephyr_workbench/deps/zephyr/dts/sparc'
+     - '/home/ivan/projects/zephyr_workbench/deps/zephyr/dts/riscv'
+     - '/home/ivan/projects/zephyr_workbench/deps/zephyr/dts/posix'
+     - '/home/ivan/projects/zephyr_workbench/deps/zephyr/dts/arm64'
+     - '/home/ivan/projects/zephyr_workbench/deps/zephyr/dts/arm'
+     - '/home/ivan/projects/zephyr_workbench/deps/zephyr/dts/arc'
+     - '/home/ivan/projects/zephyr_workbench/deps/zephyr/dts'
+  kconfig:
+    files:
+     - '/home/ivan/projects/zephyr_workbench/deps/zephyr/boards/native/native_sim/native_sim_defconfig'
+     - '/home/ivan/projects/zephyr_workbench/zephyr-course/tests/ring_buf/prj.conf'
+     - '/home/ivan/projects/zephyr_workbench/zephyr-course/twister-out/native_sim_native/host/zephyr-course/tests/ring_buf/homework.unit.ring_buf/zephyr/misc/generated/extra_kconfig_options.conf'
+    user-files:
+     - '/home/ivan/projects/zephyr_workbench/zephyr-course/tests/ring_buf/prj.conf'
+  toolchain:
+    name: 'host'
+    path: ''
+  zephyr:
+    version: '4.3.0'
+    zephyr-base: '/home/ivan/projects/zephyr_workbench/deps/zephyr'
+version: '0.1.0'
